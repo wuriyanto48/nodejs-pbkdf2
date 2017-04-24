@@ -4,6 +4,8 @@
 
 # Usage
 
+- Install first
+
 ```shell
 npm install nodejs-pbkdf2
 ```
