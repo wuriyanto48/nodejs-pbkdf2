@@ -76,12 +76,25 @@ pbkdf2.hashPassword('12345', (err, cipherText, salt) => {
 ```shell
 $ git clone https://github.com/<your-github-username>/nodejs-pbkdf2.git
 ```
+
+- Install dependencies
+```shell
+$ npm install
+```
+
 - Create a new branch
 ```shell
 $ git checkout -b feature/your-feature-branch
 ```
+
+- Run test
+```shell
+$ npm test
+```
+
 - Push to your repository
 ```shell
 $ git push -u origin feature/your-feature-branch
 ```
+
 - Hit the Pull Request
