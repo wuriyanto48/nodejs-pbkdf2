@@ -24,7 +24,7 @@ let config = {
 ```javascript
 'use strict';
 
-const Pbkdf2 = require('./nodejs-pbkdf2');
+const Pbkdf2 = require('nodejs-pbkdf2');
 
 
 const config = {
@@ -48,7 +48,7 @@ pbkdf2.hashPassword('12345', (err, cipherText, salt) => {
 ```javascript
 'use strict';
 
-const Pbkdf2 = require('./nodejs-pbkdf2');
+const Pbkdf2 = require('nodejs-pbkdf2');
 
 
 const config = {
