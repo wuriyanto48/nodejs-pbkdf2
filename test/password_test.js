@@ -36,7 +36,6 @@ describe('Hashing Password and Verify password', () => {
   it('should return true if password is valid', (done) => {
     pbkdf2.hashPassword(validPassword, (err, cipherText, salt) => {
       pbkdf2.isValidPassword(validPassword, cipherText, salt).then((isValid) => {
-        console.log(isValid);
         isValid.should.be.true;
         done();
       });
@@ -46,7 +45,15 @@ describe('Hashing Password and Verify password', () => {
   it('should return false if password is invalid', (done) => {
     pbkdf2.hashPassword(validPassword, (err, cipherText, salt) => {
       pbkdf2.isValidPassword(invalidPassword, cipherText, salt).then((isValid) => {
-        console.log(isValid);
+        isValid.should.be.false;
+        done();
+      });
+    });
+  });
+
+  it('should return false if salt is invalid', (done) => {
+    pbkdf2.hashPassword(validPassword, (err, cipherText, salt) => {
+      pbkdf2.isValidPassword(invalidPassword, cipherText, invalidSalt).then((isValid) => {
         isValid.should.be.false;
         done();
       });
