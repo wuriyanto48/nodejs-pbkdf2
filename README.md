@@ -7,7 +7,7 @@
 - Install first
 
 ```shell
-npm install nodejs-pbkdf2
+$ npm install nodejs-pbkdf2
 ```
 
 - Set up the config:
