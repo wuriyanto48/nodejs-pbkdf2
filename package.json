@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-pbkdf2",
+  "version": "1.0.0",
+  "description": "Encrypt and Verify PBKDF2 based on PBKDF2 Node Js and Crypto Node Js",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./test"
+  },
+  "author": [
+    "wuriyanto <wuriyanto48@yahoo.co.id>"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wuriyanto48/nodejs-pbkdf2.git"
+  },
+  "keywords": [
+    "pbkdf2",
+    "crypto",
+    "password",
+    "hash"
+  ],
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
