@@ -1,6 +1,6 @@
 {
   "name": "nodejs-pbkdf2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Encrypt and Verify PBKDF2 based on PBKDF2 Node Js and Crypto Node Js",
   "main": "index.js",
   "scripts": {
