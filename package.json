@@ -6,9 +6,10 @@
   "scripts": {
     "test": "./node_modules/.bin/mocha ./test"
   },
-  "author": [
-    "wuriyanto <wuriyanto48@yahoo.co.id>"
-  ],
+  "author": {
+    "name": "wuriyanto",
+    "email": "wuriyanto48@yahoo.co.id"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",

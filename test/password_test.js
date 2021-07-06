@@ -33,9 +33,18 @@ describe('Hashing Password and Verify password', () => {
     });
   });
 
-  it('should return true if password is valid', (done) => {
+  it('should return true if password is valid 1', (done) => {
     pbkdf2.hashPassword(validPassword, (err, cipherText, salt) => {
       pbkdf2.isValidPassword(validPassword, cipherText, salt).then((isValid) => {
+        isValid.should.be.true;
+        done();
+      });
+    });
+  });
+
+  it('should return true if password is valid 2', (done) => {
+    pbkdf2.hashPassword('my-strong*password', (err, cipherText, salt) => {
+      pbkdf2.isValidPassword('my-strong*password', cipherText, salt).then((isValid) => {
         isValid.should.be.true;
         done();
       });
