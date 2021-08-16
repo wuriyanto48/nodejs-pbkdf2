@@ -1,6 +1,7 @@
 # PBKDF2 Node JS
 
 [![Build Status](https://travis-ci.org/wuriyanto48/nodejs-pbkdf2.svg?branch=master)](https://travis-ci.org/wuriyanto48/nodejs-pbkdf2)
+[![nodejs-pbkdf2 CI](https://github.com/wuriyanto48/nodejs-pbkdf2/actions/workflows/ci.yml/badge.svg)](https://github.com/wuriyanto48/nodejs-pbkdf2/actions/workflows/ci.yml)
 
 # Usage
 
